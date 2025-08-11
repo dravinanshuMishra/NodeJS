@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "name": "word-count-task",
+    "version": "1.0.0",
+    "description": "A simple word count application",
+    "main": "index.js",
+    "author": {
+        "name": "Dravinanshu Mishra",
+        "email": "dravinanshu98@gmail.com"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}

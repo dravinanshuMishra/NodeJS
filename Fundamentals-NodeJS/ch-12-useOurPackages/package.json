@@ -1,0 +1,6 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "dravinanshumaths": "^1.0.0"
+  }
+}

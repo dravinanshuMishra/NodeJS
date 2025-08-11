@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "main": "index.js",
+    "name": "ch-15-fs-module",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "node --watch app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}

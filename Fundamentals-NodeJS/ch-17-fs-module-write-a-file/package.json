@@ -1,0 +1,17 @@
+{
+    "type": "module",
+    "version": "1.0.0",
+    "description": "A simple Node.js application to demonstrate file writing using fs/promises",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "Node.js",
+        "fs",
+        "file",
+        "writing"
+    ],
+    "author": "Dravinanshu Mishra",
+    "license": "ISC"
+}

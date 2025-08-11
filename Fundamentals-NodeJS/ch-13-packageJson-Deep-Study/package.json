@@ -1,0 +1,15 @@
+{
+  "name": "ch-13-packagejson-deep-study",
+  "version": "1.0.0",
+  "description": "This is Deep Study for package.json file",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js",
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "restart": "npm run stop && npm run start",
+   "stop": "kill $(lsof -t -i:3000)",
+   "dev": "node --watch index.js"
+  },
+  "author": "dravinanshu mishra",
+  "license": "ISC"
+}

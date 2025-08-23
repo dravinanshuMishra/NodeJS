@@ -1,0 +1,6 @@
+{
+    "type": "commonjs",
+    "dependencies": {
+        "pdfkit": "^0.17.1"
+    }
+}

@@ -1,0 +1,16 @@
+	NodeJS?
+NodeJS is a single-threaded, event-driven, non-blocking, asynchronous I/O runtime that allows developers to build scalable and high-performance applications, particularly suited for I/O bound tasks as a file handling and networking requests. 
+•	Single-threaded: Node.js runs on a single main thread (unlike Java/other languages that often create multiple threads for handling requests).
+What it means:
+Only one thread executes JavaScript code at a time. 
+But Node.js can still handle many requests concurrently because it does not block on I/O.
+
+•	Event-driven: Node.js works on an event loop mechanism.
+What it means:
+Everything is triggered by events (like “file finished reading”, “HTTP request received”).
+Node listens for events and executes callback functions when they occur.
+
+•	Non-blocking I/O asynchronous operations: Non-blocking = Node.js does not “pause” execution while waiting for I/O tasks. Asynchronous = Operations are started, and the result is handled later via callbacks, promises, or async/await.
+What it means:
+CPU keeps working on other things instead of getting stuck.
+Ideal for I/O bound tasks (like reading files, making API calls, DB queries).

@@ -10,4 +10,17 @@ writeStream.write("12345");
 writeStream.write("abcd");
 
 
-// 3. 
+// 3. HOW TO END (CLOSE) WRITABLE STREAM.
+writeStream.end(); // END, ke sath do event fire honge. finish and close.
+
+// 4. NOW FINISHED THE WRITABLE STREAM.
+writeStream.on("finish", () => {
+    console.log("Finished");
+});
+
+// 5. close stream.
+writeStream.on("close", () => {
+    console.log("closed");
+})
+
+// writeStream.write("abcd"); // Do Not, Error [ERR_STREAM_WRITE_AFTER_END]: write after end
